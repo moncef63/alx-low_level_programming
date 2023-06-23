@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - print more numbers
- * 
+ *
  * return: void
  */
 
