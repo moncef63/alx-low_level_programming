@@ -1,5 +1,3 @@
-2-strchr.c
-
 #include "main.h"
 /**
  * _strchr - Entry point
