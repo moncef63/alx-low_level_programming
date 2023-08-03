@@ -3,10 +3,10 @@
 /**
  * flip_bits - counts the bits to change
  * to get from one number to another
- * @n: 1 number
- * @m: 2 number
+ * @n: firs number
+ * @m: sec number
  *
- * Return: the number of bits 
+ * Return: the number of bit
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
