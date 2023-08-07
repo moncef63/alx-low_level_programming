@@ -6,7 +6,7 @@
  * @text_content: The string to add to the end of the file.
  *
  * Return: On success, returns 1.
- *         On failure (filename is NULL, or the file does not exist, or user lacks write permissions), returns -1.
+ * On failure , returns -1.
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
@@ -18,7 +18,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (text_content != NULL)
 	{
 		for (le = 0; text_content[le];)
-			len++;
+			le++;
 	}
 
 	o = open(filename, O_WRONLY | O_APPEND);
